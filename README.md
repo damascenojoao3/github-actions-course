@@ -5,5 +5,9 @@ Comandos usados:
 - New-Item -Path .gitignore: cria um novo item (o .gitignore) na pasta atual  
 - New-Item -Path README.md: cria o README.md na pasta atual  
 - git add .: adiciona tudo que foi criado  
-- git config --global user.name "": entrar (adicione seu nome)
-- git config --global user.email "": entrar (adicione seu email)
+- git config --global user.name "": entrar (adicione seu nome)  
+- git config --global user.email "": entrar (adicione seu email)  
+A parte abaixo é copiada direto do github:  
+- git remote add origin https://github.com/seunome/seurepo: adiciona o conteúdo  
+- git branch -M main: faz o branch do main  
+- git push -u origin main: faz o push do main  
