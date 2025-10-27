@@ -11,3 +11,7 @@ A parte abaixo é copiada direto do github:
 - git remote add origin https://github.com/seunome/seurepo: adiciona o conteúdo  
 - git branch -M main: faz o branch do main  
 - git push -u origin main: faz o push do main  
+Para fazer um novo commit (após fazer algo novo, desde alterar o readme a colocar um novo arquivo):  
+1. ```git add .```  
+2. ```git commit -m "Commit 2"``` (por exemplo)  
+3. ```git push -u origin main```  
