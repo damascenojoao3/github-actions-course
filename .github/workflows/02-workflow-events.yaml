@@ -5,6 +5,5 @@ jobs:
         runs-on: ubunutu-latest
         steps:
             - name: Show the trigger
-              run: |
-                echo "Triggered by ${{ github.event_name }}"
-                exit 0
+              run: echo "Triggered by ${{ github.event_name }}"
+
