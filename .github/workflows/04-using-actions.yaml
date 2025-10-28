@@ -5,11 +5,16 @@ on: push
 jobs:
     build:
         runs-on: ubuntu-latest
-# installing dependences and executing automated tasks
 
         steps:
             - name: Checkout Code
               uses: actions/checkout@v4
-            - name: Printing Folders 
-              run: ls
+            - name: Setup Node 
+              uses: actions/setup-node@v4
+              with:
+                node-version: '20.x'
+            - name: Install Dependencies
+              run: npm ci
+              working-directory: 04-using-actions/react-app
+
                
