@@ -4,6 +4,7 @@ env:
         OVERWRITTEN: 'I will be overwritten'
         UNDEFINED_VAR_WITH_DEFAULT: 'default value'
 on:
+    push:
     workflow_dispatch:
         
 jobs:
