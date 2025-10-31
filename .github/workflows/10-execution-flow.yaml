@@ -5,7 +5,6 @@ on:
             pass-unit-tests:
                 type: boolean
                 default: false
-
 jobs:
     lint-build:
         runs-on: ubuntu-latest
